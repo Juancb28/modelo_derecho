@@ -1,4 +1,3 @@
-import models.query_llm
 from api.microservicio_rag import app
 
 def start():
@@ -7,7 +6,3 @@ def start():
 
 if __name__ == '__main__':
     start()
-
-# while(True):
-#     mensaje = input()
-#     models.query_llm.query(mensaje)
